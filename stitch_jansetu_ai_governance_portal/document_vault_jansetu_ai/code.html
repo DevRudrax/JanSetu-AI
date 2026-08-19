@@ -1,0 +1,340 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={theme:{extend:{"colors":{"tertiary-fixed-dim":"#4edea3","surface-container-high":"#e6e8ea","surface-bright":"#f7f9fb","primary-fixed-dim":"#b6c4ff","background":"#f7f9fb","tertiary-container":"#004a31","on-secondary-fixed":"#00174b","status-error":"#DC2626","secondary":"#0051d5","surface-container-low":"#f2f4f6","on-primary-fixed-variant":"#264191","surface-tint":"#4059aa","primary":"#00236f","on-primary-fixed":"#00164e","tertiary":"#00311f","error-container":"#ffdad6","secondary-container":"#316bf3","on-surface-variant":"#444651","on-tertiary-container":"#27c38a","on-tertiary":"#ffffff","primary-fixed":"#dce1ff","tertiary-fixed":"#6ffbbe","outline":"#757682","surface-container-lowest":"#ffffff","on-secondary":"#ffffff","on-background":"#191c1e","on-surface":"#191c1e","surface-dim":"#d8dadc","inverse-surface":"#2d3133","error":"#ba1a1a","surface-container-highest":"#e0e3e5","secondary-fixed-dim":"#b4c5ff","on-error":"#ffffff","surface":"#f7f9fb","secondary-fixed":"#dbe1ff","outline-variant":"#c5c5d3","inverse-on-surface":"#eff1f3","slate-muted":"#64748B","on-primary":"#ffffff","border-light":"#E2E8F0","inverse-primary":"#b6c4ff","on-error-container":"#93000a","on-secondary-fixed-variant":"#003ea8","primary-container":"#1e3a8a","slate-text":"#1E293B","status-success":"#059669","status-warning":"#F59E0B","on-secondary-container":"#fefcff","surface-variant":"#e0e3e5","on-primary-container":"#90a8ff","on-tertiary-fixed-variant":"#005236","surface-container":"#eceef0","on-tertiary-fixed":"#002113"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin-mobile":"16px","base":"4px","container-max":"1280px","touch-target-min":"44px","gutter":"24px","margin-desktop":"40px"},"fontFamily":{"display-lg":["Public Sans"],"label-md":["Inter"],"body-md":["Inter"],"headline-lg":["Public Sans"],"headline-md":["Public Sans"],"headline-lg-mobile":["Public Sans"],"body-lg":["Inter"],"label-sm":["Inter"]},"fontSize":{"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"500"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"600"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Public+Sans:wght@600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"></head><body class="bg-background font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[1px_0_0_rgba(0,0,0,0.05)] z-50 flex flex-col"><div class="p-gutter flex flex-col gap-2 border-b border-border-light"><div class="flex items-center gap-3"><img alt="JanSetu AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUUdoxU0OSm-YNjQmPPZv1drZ7DI2rlANn651ihRJcACgJvQeMHcvt1Z-YG1CBB4JTxDdc6UXt2FTDpj0Xgk_E9GAIPNw3XAX9WaNKU3MZuqQMFL_le4xpaaZEJe0659eBicG7uAJ86VhoTt7p5SwF1DCCeqFFjz2B_KpAELT4s66t7dSMc_j4YUpEEAjRboQPiP521Vd4WnT6R6V9hM5KMJoTpjEpEb3DNH8CDwPmi4VnjRksBTgP"><span class="font-headline-md text-headline-md text-primary">JanSetu AI</span></div><div class="px-2 py-1 bg-primary-fixed text-on-primary-fixed-variant rounded text-[10px] font-bold uppercase tracking-widest w-fit">Govt of India Initiative</div></div><nav class="flex-1 px-4 py-6 flex flex-col gap-2" data-active-classes="bg-primary-container text-on-primary-container font-semibold shadow-sm"><a class="flex items-center px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="dashboard" href="#">Dashboard</a><a class="flex items-center px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="schemes" href="#">Schemes</a><a class="flex items-center px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="grievances" href="#">Grievances</a><a aria-current="page" class="flex items-center px-4 py-3 rounded-xl transition-all group bg-primary-container text-on-primary-container font-semibold shadow-sm" data-path="documents" href="#">Documents</a><a class="flex items-center px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="rti-assistant" href="#">RTI Assistant</a></nav><div class="p-6 border-t border-border-light"><div class="flex items-center gap-3 px-2 text-on-surface-variant"><span class="material-symbols-outlined">support_agent</span><div class="flex flex-col"><span class="text-label-sm">Helpdesk</span><span class="text-label-md font-bold">1800-110-001</span></div></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl border-b border-border-light z-40 flex items-center justify-between px-gutter"><div class="flex items-center gap-4 px-4 py-2 bg-surface-container-low rounded-full"><span class="material-symbols-outlined text-outline">search</span><input class="bg-transparent border-none focus:ring-0 text-label-md text-on-surface-variant w-64" placeholder="Search schemes or services..." type="text"></div><div class="flex items-center gap-6"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-on-surface-variant text-[20px]">language</span><select class="bg-transparent border-none text-label-md font-medium text-on-surface-variant cursor-pointer focus:ring-0"><option>English</option><option>Hindi</option><option>Bengali</option><option>Tamil</option></select></div><button class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">contrast</span><span class="text-label-md hidden lg:block">Accessibility</span></button><div class="h-8 w-[1px] bg-border-light"></div><div class="flex items-center gap-3 cursor-pointer group"><div class="flex flex-col items-end hidden sm:flex"><span class="text-label-md font-bold text-on-surface">Rajesh Kumar</span><span class="text-label-sm text-on-surface-variant">Citizen Profile</span></div><div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center shadow-md group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-on-primary text-[24px]">person</span></div></div></div></header><main class="relative pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full h-[calc(100vh-64px)] overflow-hidden">
+<div class="flex flex-1 overflow-hidden">
+<!-- Sidebar: Document Vault -->
+<aside class="w-80 bg-surface border-r border-border-light flex flex-col h-full shadow-sm z-10 shrink-0 hidden lg:flex">
+<div class="p-gutter border-b border-border-light bg-surface-container-low/50">
+<h1 class="font-headline-md text-headline-md text-primary mb-2 tracking-tight">Document Vault</h1>
+<div class="relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-label-md">search</span>
+<input class="w-full bg-surface-container-lowest border border-border-light rounded-lg pl-9 pr-3 py-2 font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-secondary/50 focus:border-secondary transition-all placeholder:text-outline-variant shadow-sm" placeholder="Search files &amp; circulars..." type="text">
+</div>
+</div>
+<div class="flex-1 overflow-y-auto custom-scrollbar p-4 space-y-6">
+<!-- My Documents Section -->
+<div>
+<h2 class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-3 px-2 flex items-center justify-between">
+                        My Documents
+                        <button class="text-secondary hover:text-primary transition-colors flex items-center justify-center w-6 h-6 rounded-full hover:bg-secondary-fixed/50">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</h2>
+<ul class="space-y-1">
+<li class="">
+<button class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors hover:bg-surface-container-high group">
+<div class="w-8 h-8 rounded bg-primary-fixed/30 flex items-center justify-center text-primary-container group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">badge</span>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Aadhaar Card</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Updated: 12 Jan 2024</p>
+</div>
+</button>
+</li>
+<li class="">
+<button class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors hover:bg-surface-container-high group">
+<div class="w-8 h-8 rounded bg-primary-fixed/30 flex items-center justify-center text-primary-container group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]">local_dining</span>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Ration Card</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Updated: 05 Nov 2023</p>
+</div>
+</button>
+</li>
+</ul>
+</div>
+<!-- Official Circulars Section -->
+<div>
+<h2 class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-3 px-2">Official Circulars</h2>
+<ul class="space-y-1">
+<li class="">
+<button class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors bg-secondary-fixed shadow-sm ring-1 ring-secondary/20">
+<div class="w-8 h-8 rounded bg-secondary flex items-center justify-center text-on-secondary">
+<span class="material-symbols-outlined text-[18px]">description</span>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md text-on-secondary-fixed truncate font-bold">PM Kisan Samman Nidhi Update</p>
+<p class="font-label-sm text-label-sm text-on-secondary-fixed-variant truncate">Ref: AGR/2024/089</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-[16px]">chevron_right</span>
+</button>
+</li>
+<li class="">
+<button class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors hover:bg-surface-container-high group">
+<div class="w-8 h-8 rounded bg-tertiary-fixed/30 flex items-center justify-center text-tertiary-container group-hover:bg-tertiary group-hover:text-on-tertiary transition-colors">
+<span class="material-symbols-outlined text-[18px]">health_and_safety</span>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Ayushman Bharat Expansion</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Ref: HFW/2024/112</p>
+</div>
+</button>
+</li>
+<li class="">
+<button class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors hover:bg-surface-container-high group">
+<div class="w-8 h-8 rounded bg-surface-container-highest flex items-center justify-center text-on-surface-variant group-hover:bg-on-surface group-hover:text-surface transition-colors">
+<span class="material-symbols-outlined text-[18px]">assured_workload</span>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md text-on-surface truncate">Tax Filing Deadline Change</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Ref: FIN/2023/441</p>
+</div>
+</button>
+</li>
+</ul>
+</div>
+</div>
+<!-- Storage Status -->
+<div class="p-4 border-t border-border-light bg-surface-bright">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Storage</span>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">45%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full w-[45%]"></div>
+</div>
+</div>
+</aside>
+<!-- Main Content Area: Side-by-side Viewer -->
+<div class="flex-1 flex flex-col bg-surface-container-lowest h-full relative">
+<!-- Mobile Header Toggle (Hidden on LG) -->
+<div class="lg:hidden p-4 border-b border-border-light flex items-center gap-3 bg-surface">
+<button class="w-10 h-10 rounded-full hover:bg-surface-container-high flex items-center justify-center text-on-surface-variant">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">PM Kisan Update</h1>
+</div>
+<!-- Split View Container -->
+<div class="flex-1 flex flex-col lg:flex-row overflow-hidden">
+<!-- Left Panel: Original Document Viewer -->
+<section class="flex-1 flex flex-col border-b lg:border-b-0 lg:border-r border-border-light bg-surface-dim relative h-1/2 lg:h-full">
+<!-- Toolbar -->
+<div class="h-14 bg-surface px-4 flex items-center justify-between border-b border-border-light shadow-sm z-10">
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">picture_as_pdf</span>
+<span class="font-label-md text-label-md truncate max-w-[200px]">Circular_AGR_2024_089.pdf</span>
+</div>
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded hover:bg-surface-container flex items-center justify-center text-on-surface-variant transition-colors" title="Zoom Out">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<span class="font-label-sm text-label-sm w-12 text-center text-on-surface-variant">100%</span>
+<button class="w-8 h-8 rounded hover:bg-surface-container flex items-center justify-center text-on-surface-variant transition-colors" title="Zoom In">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+<div class="w-px h-4 bg-border-light mx-2"></div>
+<button class="w-8 h-8 rounded hover:bg-surface-container flex items-center justify-center text-on-surface-variant transition-colors" title="Download Original">
+<span class="material-symbols-outlined text-[18px]">download</span>
+</button>
+</div>
+</div>
+<!-- PDF Display Area -->
+<div class="flex-1 overflow-auto p-4 lg:p-8 flex justify-center custom-scrollbar">
+<div class="bg-surface-container-lowest w-full max-w-3xl aspect-[1/1.414] shadow-md border border-border-light relative group">
+<!-- Faux PDF Content -->
+<div class="absolute inset-0 p-8 flex flex-col">
+<div class="flex justify-between items-start mb-8 border-b-2 border-slate-text pb-4">
+<div class="w-16 h-16 rounded-full border border-border-light flex items-center justify-center bg-surface-container-lowest" data-alt="A generic government emblem logo, clean vector style, monochromatic navy blue, centered in a circle, professional and official appearance." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAtdsFqKAc41P_VHutCaEq63Hh0Yro-gTrKF0segQkTSnTmhSE-b-QtM0fhvct95ZCZCoaEbrFHlvZ-oAfQyCb6O5Q2SOW7xzqI-TYpfrJdRQvWFSzGO38blHBMEqzTTMqBjNVkIf_b-z-aIJ0x8Pai_O3tCVNloF6wPkxtPByraXfNpVwCnsNMzvxO0EodjaBMMCmcCcqld2GBQd-0KjmJDAyh_54DPW6XEaEzBpce4jamlBefe0H5')"></div>
+<div class="text-right">
+<p class="font-label-sm text-label-sm text-on-surface font-bold">GOVERNMENT OF INDIA</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Ministry of Agriculture &amp; Farmers Welfare</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-2">Date: 15th February 2024</p>
+</div>
+</div>
+<h3 class="font-headline-md text-headline-md text-center text-on-surface mb-6 uppercase tracking-wide">Official Notification</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify mb-4">
+                                    Subject: Mandatory e-KYC for PM-Kisan Samman Nidhi Beneficiaries.
+                                </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify mb-4">
+                                    In reference to the ongoing implementation of the Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme, it is hereby notified that all registered beneficiaries must complete their e-KYC verification process to ensure the uninterrupted release of subsequent installment payments. The e-KYC can be completed through OTP-based authentication on the PM-KISAN portal or via biometric authentication at the nearest Common Service Centres (CSC).
+                                </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify mb-4">
+                                    Furthermore, beneficiaries are advised to ensure their bank accounts are successfully seeded with their Aadhaar numbers and that Direct Benefit Transfer (DBT) is enabled for the respective accounts. Failure to comply with these procedural requirements by the stipulated deadline of 31st March 2024 will result in the temporary suspension of fund transfers. State nodal officers are directed to facilitate widespread awareness campaigns regarding this mandate.
+                                </p>
+<div class="mt-auto text-right border-t border-border-light pt-4">
+<div class="w-32 h-12 ml-auto mb-2 opacity-50 bg-contain bg-right bg-no-repeat" data-alt="A formal digital signature placeholder, illegible cursive script, dark blue ink, conveying official authorization." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD8pp5_3L7iUzYMtaB6QgogYrSZb1TzVFBZtsW2s7dnIlj-9B-aR_RyJKDmB_We75MA-rp8XxPKmnpNH9WNOlhbchWLj1uD6xW0UDM8fvsdR5hl8mJryK_HP5IsCkoRzm6Ut-s3oyaGUJvOnb08k_qPjNmjUe2hnL730yLbRGXEO8gTAVWibW8VGzHDx18krtIJpe92V_Q-3gqvBJ0EE_K6dR6Nz67B8066Bb597GcAAudsSpIVGqW4')"></div>
+<p class="font-label-md text-label-md text-on-surface font-bold">Joint Secretary to the Govt. of India</p>
+</div>
+</div>
+<!-- AI Scanning Overlay Effect -->
+<div class="absolute top-0 left-0 w-full h-1 bg-secondary/50 shadow-[0_0_15px_rgba(0,81,213,0.8)] animate-[scan_3s_ease-in-out_infinite]"></div>
+</div>
+</div>
+</section>
+<!-- Right Panel: AI Simplifier -->
+<section class="w-full lg:w-[450px] xl:w-[500px] flex flex-col bg-surface h-1/2 lg:h-full shrink-0 shadow-[-4px_0_15px_rgba(0,0,0,0.02)] z-20">
+<!-- AI Header -->
+<div class="h-16 bg-primary-fixed/20 px-6 flex items-center justify-between border-b border-primary-fixed-dim backdrop-blur-sm sticky top-0 z-10">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm relative">
+
+<span class="absolute top-0 right-0 w-2 h-2 rounded-full bg-status-success ring-2 ring-primary-fixed/20 animate-pulse"></span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-primary-fixed-variant tracking-tight">AI Simplified Summary</h2>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-2">
+<button class="h-9 px-3 rounded-md border border-primary/20 bg-surface text-primary font-label-md text-label-md flex items-center gap-2 hover:bg-primary-fixed/30 transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">translate</span>
+<span class="hidden sm:inline">Hindi</span>
+</button>
+</div>
+</div>
+<div class="flex-1 overflow-y-auto custom-scrollbar p-6 space-y-6 bg-gradient-to-b from-primary-fixed/5 to-transparent">
+<!-- Overview Card -->
+<div class="bg-surface-container-lowest rounded-xl p-5 shadow-sm border border-border-light relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-32 h-32 bg-secondary/5 rounded-full blur-2xl -mr-10 -mt-10 transition-transform group-hover:scale-150 duration-700"></div>
+<h3 class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary">subject</span>
+                                Core Message
+                            </h3>
+<p class="font-body-lg text-body-lg text-on-surface leading-snug font-medium">
+                                You must complete e-KYC (Know Your Customer) and link your Aadhaar to your bank account to keep receiving PM-Kisan payments.
+                            </p>
+</div>
+<!-- Actionable Deadlines -->
+<div class="bg-error-container/30 rounded-xl p-5 border border-error-container relative">
+<div class="absolute left-0 top-0 bottom-0 w-1 bg-status-error rounded-l-xl"></div>
+<h3 class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider mb-3 flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-status-error">event_busy</span>
+                                Critical Deadline
+                            </h3>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 bg-surface rounded-lg shadow-sm border border-border-light flex flex-col items-center justify-center overflow-hidden">
+<span class="bg-status-error w-full text-center text-on-error font-label-sm text-[10px] uppercase py-0.5">Mar</span>
+<span class="font-headline-md text-headline-md text-on-surface font-bold leading-none mt-1">31</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-bold">Action Required Before</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Payments will be suspended after this date.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Key Takeaways (Bullets) -->
+<div>
+<h3 class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider mb-4 flex items-center gap-2 px-1">
+<span class="material-symbols-outlined text-[18px] text-primary">format_list_bulleted</span>
+                                What you need to do
+                            </h3>
+<ul class="space-y-4">
+<li class="flex items-start gap-3 bg-surface-container-lowest p-4 rounded-xl border border-border-light shadow-sm hover:border-primary/30 transition-colors">
+<div class="w-6 h-6 rounded-full bg-primary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="font-label-sm text-label-sm text-primary font-bold">1</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-bold mb-1">Complete e-KYC</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Do this online using OTP on the PM-Kisan portal, or visit a nearby CSC (Common Service Centre) for fingerprint verification.</p>
+</div>
+</li>
+<li class="flex items-start gap-3 bg-surface-container-lowest p-4 rounded-xl border border-border-light shadow-sm hover:border-primary/30 transition-colors">
+<div class="w-6 h-6 rounded-full bg-primary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="font-label-sm text-label-sm text-primary font-bold">2</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-bold mb-1">Link Aadhaar to Bank</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Ensure your bank account is "Aadhaar seeded". Contact your bank branch if you are unsure.</p>
+</div>
+</li>
+<li class="flex items-start gap-3 bg-surface-container-lowest p-4 rounded-xl border border-border-light shadow-sm hover:border-primary/30 transition-colors">
+<div class="w-6 h-6 rounded-full bg-primary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="font-label-sm text-label-sm text-primary font-bold">3</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-bold mb-1">Enable DBT</p>
+<p class="font-body-md text-body-md text-on-surface-variant">Confirm with your bank that Direct Benefit Transfer (DBT) is turned on to receive government funds.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- Audio Player Sticky Bottom -->
+<div class="p-4 bg-surface border-t border-border-light shadow-[0_-4px_10px_rgba(0,0,0,0.02)] z-10 relative overflow-hidden group cursor-pointer" id="audio-player-container">
+<!-- Animated background wave indication -->
+<div class="absolute inset-0 bg-secondary/5 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center overflow-hidden pointer-events-none">
+<div class="w-[200%] h-full flex gap-1 opacity-20">
+<div class="w-2 h-full bg-secondary rounded-full animate-[pulse_1s_ease-in-out_infinite_alternate]"></div>
+<div class="w-2 h-full bg-secondary rounded-full animate-[pulse_1.2s_ease-in-out_infinite_alternate_0.2s]"></div>
+<div class="w-2 h-full bg-secondary rounded-full animate-[pulse_0.8s_ease-in-out_infinite_alternate_0.4s]"></div>
+<div class="w-2 h-full bg-secondary rounded-full animate-[pulse_1.5s_ease-in-out_infinite_alternate_0.1s]"></div>
+</div>
+</div>
+<div class="flex items-center gap-4 relative z-10">
+<button class="w-12 h-12 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md hover:bg-primary/90 hover:scale-105 transition-all focus:ring-4 focus:ring-primary-fixed" id="play-btn">
+<span class="material-symbols-outlined text-[24px]" id="play-icon" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+<div class="flex-1">
+<div class="flex justify-between items-center mb-1">
+<span class="font-label-md text-label-md text-on-surface font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">volume_up</span>
+                                        Listen to Summary
+                                    </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="time-display">0:00 / 1:24</span>
+</div>
+<!-- Custom Progress Bar -->
+<div class="h-1.5 w-full bg-surface-container-highest rounded-full overflow-hidden cursor-pointer relative">
+<div class="absolute top-0 left-0 h-full bg-primary rounded-full transition-all duration-100" id="progress-bar" style="width: 0%;"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+<style>
+@keyframes scan {
+    0% { top: 0; opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { top: 100%; opacity: 0; }
+}
+</style>
+<script>
+    // Simple mock audio player logic
+    document.addEventListener('DOMContentLoaded', () => {
+        const playBtn = document.getElementById('play-btn');
+        const playIcon = document.getElementById('play-icon');
+        const progressBar = document.getElementById('progress-bar');
+        const timeDisplay = document.getElementById('time-display');
+        
+        let isPlaying = false;
+        let progress = 0;
+        let interval;
+        const totalTime = 84; // 1:24 in seconds
+
+        function updateDisplay() {
+            progressBar.style.width = `${(progress / totalTime) * 100}%`;
+            
+            const currentMins = Math.floor(progress / 60);
+            const currentSecs = Math.floor(progress % 60).toString().padStart(2, '0');
+            timeDisplay.textContent = `${currentMins}:${currentSecs} / 1:24`;
+        }
+
+        playBtn.addEventListener('click', () => {
+            isPlaying = !isPlaying;
+            
+            if (isPlaying) {
+                playIcon.textContent = 'pause';
+                interval = setInterval(() => {
+                    progress += 0.5;
+                    if (progress >= totalTime) {
+                        progress = 0;
+                        isPlaying = false;
+                        playIcon.textContent = 'play_arrow';
+                        clearInterval(interval);
+                    }
+                    updateDisplay();
+                }, 500);
+            } else {
+                playIcon.textContent = 'play_arrow';
+                clearInterval(interval);
+            }
+        });
+    });
+</script></main></div>
+
+</body></html>

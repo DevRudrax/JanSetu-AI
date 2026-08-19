@@ -1,0 +1,325 @@
+<!DOCTYPE html><html lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={theme:{extend:{"colors":{"surface":"#f7f9fb","primary":"#00236f","error-container":"#ffdad6","background":"#f7f9fb","surface-container":"#eceef0","on-primary-container":"#90a8ff","secondary-container":"#316bf3","primary-fixed":"#dce1ff","on-primary-fixed-variant":"#264191","on-error":"#ffffff","on-tertiary-fixed":"#002113","surface-container-high":"#e6e8ea","on-primary":"#ffffff","secondary-fixed-dim":"#b4c5ff","on-secondary-container":"#fefcff","primary-container":"#1e3a8a","tertiary-fixed":"#6ffbbe","border-light":"#E2E8F0","on-error-container":"#93000a","slate-text":"#1E293B","primary-fixed-dim":"#b6c4ff","outline":"#757682","on-secondary-fixed":"#00174b","secondary":"#0051d5","error":"#ba1a1a","inverse-primary":"#b6c4ff","on-tertiary-fixed-variant":"#005236","on-secondary-fixed-variant":"#003ea8","on-surface":"#191c1e","surface-dim":"#d8dadc","surface-variant":"#e0e3e5","surface-container-lowest":"#ffffff","surface-tint":"#4059aa","inverse-surface":"#2d3133","status-error":"#DC2626","slate-muted":"#64748B","status-success":"#059669","on-tertiary-container":"#27c38a","tertiary-container":"#004a31","surface-bright":"#f7f9fb","surface-container-low":"#f2f4f6","inverse-on-surface":"#eff1f3","on-background":"#191c1e","tertiary":"#00311f","on-surface-variant":"#444651","secondary-fixed":"#dbe1ff","tertiary-fixed-dim":"#4edea3","outline-variant":"#c5c5d3","status-warning":"#F59E0B","on-primary-fixed":"#00164e","on-tertiary":"#ffffff","surface-container-highest":"#e0e3e5","on-secondary":"#ffffff"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"touch-target-min":"44px","gutter":"24px","container-max":"1280px","margin-desktop":"40px","base":"4px","margin-mobile":"16px"},"fontFamily":{"body-md":["Inter"],"headline-md":["Public Sans"],"label-md":["Inter"],"body-lg":["Inter"],"headline-lg":["Public Sans"],"label-sm":["Inter"],"display-lg":["Public Sans"],"headline-lg-mobile":["Public Sans"]},"fontSize":{"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"label-md":["14px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.05em","fontWeight":"600"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"600"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Public+Sans:wght@600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"></head><body class="bg-background font-body-md text-on-surface"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[1px_0_0_rgba(0,0,0,0.05)] z-50 flex flex-col"><div class="p-gutter flex flex-col gap-2 border-b border-border-light"><div class="flex items-center gap-3"><img alt="JanSetu AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUUdoxU0OSm-YNjQmPPZv1drZ7DI2rlANn651ihRJcACgJvQeMHcvt1Z-YG1CBB4JTxDdc6UXt2FTDpj0Xgk_E9GAIPNw3XAX9WaNKU3MZuqQMFL_le4xpaaZEJe0659eBicG7uAJ86VhoTt7p5SwF1DCCeqFFjz2B_KpAELT4s66t7dSMc_j4YUpEEAjRboQPiP521Vd4WnT6R6V9hM5KMJoTpjEpEb3DNH8CDwPmi4VnjRksBTgP"><span class="font-headline-md text-headline-md text-primary">JanSetu AI</span></div><div class="px-2 py-1 bg-primary-fixed text-on-primary-fixed-variant rounded text-[10px] font-bold uppercase tracking-widest w-fit">Govt of India Initiative</div></div><nav class="flex-1 px-4 py-6 flex flex-col gap-2" data-active-classes="bg-primary-container text-on-primary-container font-semibold shadow-sm"><a aria-current="page" class="flex items-center px-4 py-3 rounded-xl transition-all group bg-primary-container text-on-primary-container font-semibold shadow-sm" data-path="dashboard" href="#"><span class="material-symbols-outlined mr-3">dashboard</span>Dashboard</a><a class="flex items-center px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="schemes" href="#"><span class="material-symbols-outlined mr-3">account_balance</span>Schemes</a><a class="flex items-center px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="grievances" href="#"><span class="material-symbols-outlined mr-3">forum</span>Grievances</a><a class="flex items-center px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="documents" href="#"><span class="material-symbols-outlined mr-3">description</span>Documents</a><a class="flex items-center px-4 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all group" data-path="rti-assistant" href="#"><span class="material-symbols-outlined mr-3">robot_2</span>RTI Assistant</a></nav><div class="p-6 border-t border-border-light"><div class="flex items-center gap-3 px-2 text-on-surface-variant"><span class="material-symbols-outlined">support_agent</span><div class="flex flex-col"><span class="text-label-sm">Helpdesk</span><span class="text-label-md font-bold">1800-110-001</span></div></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/80 backdrop-blur-xl border-b border-border-light z-40 flex items-center justify-between px-gutter"><div class="flex items-center gap-4 px-4 py-2 bg-surface-container-low rounded-full"><span class="material-symbols-outlined text-outline">search</span><input class="bg-transparent border-none focus:ring-0 text-label-md text-on-surface-variant w-64" placeholder="Search schemes or services..." type="text"></div><div class="flex items-center gap-6"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-on-surface-variant text-[20px]">language</span><select class="bg-transparent border-none text-label-md font-medium text-on-surface-variant cursor-pointer focus:ring-0"><option>English</option><option>Hindi</option><option>Bengali</option><option>Tamil</option></select></div><button class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined">contrast</span><span class="text-label-md hidden lg:block">Accessibility</span></button><div class="h-8 w-[1px] bg-border-light"></div><div class="flex items-center gap-3 cursor-pointer group"><div class="flex flex-col items-end hidden sm:flex"><span class="text-label-md font-bold text-on-surface">Rajesh Kumar</span><span class="text-label-sm text-on-surface-variant">Citizen Profile</span></div><div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center shadow-md group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-on-primary text-[24px]">person</span></div></div></div></header><main class="relative pt-16 bg-surface min-h-screen"><div class="flex flex-col w-full gap-12 p-6 lg:p-10">
+<!-- Hero / Quick Action Header -->
+<div class="flex flex-col gap-8 w-full max-w-5xl mx-auto mt-4 text-center">
+<div class="flex flex-col gap-2">
+<div class="flex justify-center items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-primary text-[32px]" style="font-variation-settings: 'FILL' 1;">robot_2</span>
+<span class="font-label-md text-label-md text-primary uppercase tracking-widest">JanSetu AI Copilot</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-surface">How can we assist you today?</h1>
+</div>
+<div class="relative w-full shadow-xl shadow-surface-tint/5 rounded-full bg-surface-container-lowest flex items-center p-3 transform hover:-translate-y-1 transition-transform duration-300">
+<span class="material-symbols-outlined text-primary px-4 text-[28px]">mic</span>
+<input class="flex-1 bg-transparent outline-none font-body-lg text-body-lg text-on-surface placeholder:text-outline-variant py-3 w-full min-w-0" id="ai-search-input" placeholder="T" type="text">
+<button class="bg-primary text-on-primary rounded-full px-8 py-4 font-label-md text-label-md shadow-md hover:bg-primary/90 transition-colors ml-2 flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">send</span>
+                Analyze
+            </button>
+</div>
+<div class="flex flex-wrap justify-center gap-4">
+<button class="bg-surface-container-lowest text-on-surface font-label-md text-label-md px-6 py-3 rounded-full shadow-sm hover:shadow-md hover:bg-surface-container-low transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">account_balance</span>
+                Find Welfare Schemes
+            </button>
+<button class="bg-surface-container-lowest text-on-surface font-label-md text-label-md px-6 py-3 rounded-full shadow-sm hover:shadow-md hover:bg-surface-container-low transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">track_changes</span>
+                Track Grievance
+            </button>
+<button class="bg-surface-container-lowest text-on-surface font-label-md text-label-md px-6 py-3 rounded-full shadow-sm hover:shadow-md hover:bg-surface-container-low transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">document_scanner</span>
+                Analyze Document
+            </button>
+<button class="bg-surface-container-lowest text-on-surface font-label-md text-label-md px-6 py-3 rounded-full shadow-sm hover:shadow-md hover:bg-surface-container-low transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">policy</span>
+                RTI Assistant
+            </button>
+</div>
+</div>
+<!-- Main Dashboard Grid (Bento Layout) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 w-full max-w-[1400px] mx-auto">
+<!-- Card 1: Multimodal Grievance Submission -->
+<div class="col-span-1 lg:col-span-7 bg-surface-container-lowest shadow-lg rounded-[24px] p-8 flex flex-col gap-6 relative overflow-hidden group">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -mr-10 -mt-10 pointer-events-none"></div>
+<div class="flex items-center justify-between z-10">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Smart Grievance Logging</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Upload a photo, type, or speak your issue.</p>
+</div>
+<div class="w-12 h-12 bg-surface-container-high rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">forum</span>
+</div>
+</div>
+<div class="w-full bg-surface-container-low rounded-xl p-8 flex flex-col items-center justify-center gap-4 text-center cursor-pointer hover:bg-surface-container transition-colors z-10">
+<div class="w-16 h-16 bg-surface-container-lowest shadow-sm rounded-full flex items-center justify-center text-primary mb-2 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[32px]">cloud_upload</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant">Drag &amp; drop photos or documents here</span>
+<span class="font-label-sm text-label-sm text-outline">JPEG, PNG, PDF up to 10MB</span>
+</div>
+<div class="flex items-center gap-4 z-10">
+<div class="flex-1 h-[1px] bg-surface-variant"></div>
+<span class="font-label-sm text-label-sm text-outline-variant uppercase tracking-widest">Or</span>
+<div class="flex-1 h-[1px] bg-surface-variant"></div>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 items-center z-10">
+<div class="flex-1 w-full bg-surface-container shadow-inner rounded-xl flex items-center px-4 py-2">
+<input class="w-full bg-transparent outline-none font-body-md text-body-md py-2 text-on-surface" placeholder="Type your grievance here..." type="text">
+</div>
+<button class="bg-primary text-on-primary rounded-xl w-14 h-14 flex items-center justify-center shadow-md hover:bg-primary/90 flex-shrink-0 transition-colors">
+<span class="material-symbols-outlined">mic</span>
+</button>
+</div>
+<!-- Auto-tagging Preview -->
+<div class="bg-surface-container-high/50 p-4 rounded-xl flex items-start gap-3 z-10 mt-2">
+
+<div class="flex flex-col gap-2 w-full">
+<span class="font-label-sm text-label-sm text-on-surface uppercase">AI Auto-Routing Preview</span>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-surface-container-lowest text-primary font-label-md text-label-md rounded-full shadow-sm flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-primary"></span> Dept: PWD
+                        </span>
+<span class="px-3 py-1 bg-error-container text-on-error-container font-label-md text-label-md rounded-full shadow-sm flex items-center gap-1">
+                            Urgency: High
+                        </span>
+<span class="px-3 py-1 bg-surface-container-lowest text-on-surface font-label-md text-label-md rounded-full shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">check_circle</span> Ready to Route
+                        </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Card 2: AI Scheme Matcher -->
+<div class="col-span-1 lg:col-span-5 bg-primary text-on-primary shadow-xl rounded-[24px] p-8 flex flex-col relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent pointer-events-none"></div>
+<div class="flex justify-between items-start z-10 mb-6">
+<div class="flex flex-col">
+<h2 class="font-headline-md text-headline-md text-on-primary">Citizen Co-Pilot</h2>
+<p class="font-body-md text-body-md text-primary-fixed-dim mt-1">Personalized scheme matches</p>
+</div>
+<span class="material-symbols-outlined text-[32px] text-tertiary-fixed">memory</span>
+</div>
+<!-- Profile Summary -->
+<div class="bg-primary-container/40 p-4 rounded-xl mb-6 z-10 flex justify-between items-center backdrop-blur-sm">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Active Profile</span>
+<span class="font-body-md text-body-md text-on-primary font-medium mt-1">Maharashtra • Income &lt; ₹5L</span>
+</div>
+<button class="text-tertiary-fixed hover:text-white transition-colors">
+<span class="material-symbols-outlined">edit</span>
+</button>
+</div>
+<!-- Match List -->
+<div class="flex flex-col gap-4 z-10 flex-1">
+<!-- Match Item 1 -->
+<div class="bg-primary-container/80 p-4 rounded-xl flex items-center justify-between hover:bg-primary-container transition-colors cursor-pointer">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-primary font-bold">PM-Kisan Samman Nidhi</span>
+<span class="font-label-sm text-label-sm text-primary-fixed-dim mt-0.5">Agriculture subsidy</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-headline-md text-headline-md text-tertiary-fixed">98%</span>
+<svg class="w-8 h-8 text-tertiary-fixed" viewBox="0 0 36 36">
+<path class="text-primary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="4"></path>
+<path class="text-tertiary-fixed" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="98, 100" stroke-width="4"></path>
+</svg>
+</div>
+</div>
+<!-- Match Item 2 -->
+<div class="bg-primary-container/80 p-4 rounded-xl flex items-center justify-between hover:bg-primary-container transition-colors cursor-pointer">
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-primary font-bold">PMAY-Gramin</span>
+<span class="font-label-sm text-label-sm text-primary-fixed-dim mt-0.5">Housing assistance</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-headline-md text-headline-md text-tertiary-fixed">85%</span>
+<svg class="w-8 h-8 text-tertiary-fixed" viewBox="0 0 36 36">
+<path class="text-primary-container" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="4"></path>
+<path class="text-tertiary-fixed" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="85, 100" stroke-width="4"></path>
+</svg>
+</div>
+</div>
+</div>
+<button class="mt-6 w-full bg-on-primary text-primary font-label-md text-label-md py-4 rounded-xl shadow-md hover:bg-primary-fixed transition-colors flex items-center justify-center gap-2 z-10">
+<span class="material-symbols-outlined">rocket_launch</span>
+                Apply with AI Co-Pilot
+            </button>
+</div>
+<!-- Card 3: Document Simplifier -->
+<div class="col-span-1 lg:col-span-12 bg-surface-container-lowest shadow-md rounded-[24px] overflow-hidden flex flex-col lg:flex-row">
+<!-- Left Side: Document Preview -->
+<div class="lg:w-2/5 bg-surface-container p-6 flex flex-col relative">
+<div class="flex justify-between items-center mb-4">
+<span class="font-label-md text-label-md text-on-surface font-bold">Original Document</span>
+<span class="px-2 py-1 bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm rounded">PDF</span>
+</div>
+<div class="flex-1 bg-surface-container-lowest shadow-sm p-4 overflow-hidden relative">
+<div class="bg-cover bg-top w-full h-full opacity-60 mix-blend-multiply absolute inset-0" data-alt="A scanned official government circular document in Hindi and English with an official state seal, dense paragraphs, and official stamps, slightly blurred to represent raw input." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCvHRH_rEltNXYQnRHYYlcya8djsyUvtoZTbsK4lRk7BPdlJp1PB4kbuA1gQ9_ACu_ul8JC9av4N2jIL8PmeCX7PdGL56Gl3gLm5YkEZ871atwRqndaNuAgbyhPYa5YzcnQOJ21tT27Bb5oVCuEFmd8XQbhrNlUGVwqwqUws_GMcv5YvrxSx9y_CzCZIWgHpPNFo5WwSOV9_DGVEtE1EH0NmQ4NJH6MHyVi0QOrimjLWNgieQRH_YuW')"></div>
+<div class="relative z-10 w-full h-full bg-gradient-to-t from-surface-container-lowest via-transparent to-transparent"></div>
+</div>
+</div>
+<!-- Right Side: AI Simplification -->
+<div class="lg:w-3/5 p-8 flex flex-col justify-center bg-surface-container-lowest">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary">auto_fix_high</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">AI Simplified Summary</h3>
+</div>
+<div class="flex flex-col gap-5">
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant flex items-center justify-center flex-shrink-0 font-bold font-label-md">1</div>
+<p class="font-body-md text-body-md text-on-surface-variant pt-1"><strong class="text-on-surface">Core Objective:</strong> The document outlines the new procedural guidelines for availing the crop insurance subsidy for the Rabi season.</p>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant flex items-center justify-center flex-shrink-0 font-bold font-label-md">2</div>
+<p class="font-body-md text-body-md text-on-surface-variant pt-1"><strong class="text-on-surface">Eligibility Criteria:</strong> All registered farmers holding a valid Kisan Credit Card (KCC) and Aadhaar seeding are automatically eligible.</p>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-8 h-8 rounded-full bg-error-container text-on-error-container flex items-center justify-center flex-shrink-0 font-bold font-label-md">!</div>
+<p class="font-body-md text-body-md text-on-surface-variant pt-1"><strong class="text-on-surface">Key Deadline:</strong> Applications must be submitted to the local CSC or online portal by <span class="text-status-error font-semibold">15th November 2023</span>.</p>
+</div>
+</div>
+<div class="mt-8 flex gap-4">
+<button class="bg-surface-container-high text-on-surface font-label-md text-label-md px-6 py-2 rounded-lg hover:bg-surface-container-highest transition-colors">Translate to Hindi</button>
+<button class="bg-surface-container-high text-on-surface font-label-md text-label-md px-6 py-2 rounded-lg hover:bg-surface-container-highest transition-colors flex items-center gap-2"><span class="material-symbols-outlined text-[18px]">volume_up</span> Listen</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Live Infrastructure & Resolution Analytics -->
+<div class="flex flex-col gap-6 w-full max-w-[1400px] mx-auto mt-6">
+<h3 class="font-headline-md text-headline-md text-on-surface px-2">Live Platform Intelligence</h3>
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+<!-- Stats -->
+<div class="col-span-1 flex flex-col gap-6">
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between h-32">
+<span class="font-label-md text-label-md text-on-surface-variant">Total Grievances Resolved</span>
+<div class="flex items-baseline gap-2">
+<span class="font-display-lg text-display-lg text-primary tracking-tighter">1.2M</span>
+<span class="font-label-sm text-label-sm text-status-success flex items-center"><span class="material-symbols-outlined text-[16px]">trending_up</span> 12%</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between h-32">
+<span class="font-label-md text-label-md text-on-surface-variant">Avg. AI Triage Time</span>
+<div class="flex items-baseline gap-2">
+<span class="font-display-lg text-display-lg text-primary tracking-tighter">&lt; 2m</span>
+<span class="font-label-sm text-label-sm text-outline">vs 48h manual</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between h-32">
+<span class="font-label-md text-label-md text-on-surface-variant">Active Schemes Indexed</span>
+<div class="flex items-baseline gap-2">
+<span class="font-display-lg text-display-lg text-primary tracking-tighter">3,450</span>
+</div>
+</div>
+</div>
+<!-- Activity Feed -->
+<div class="col-span-1 lg:col-span-3 bg-surface-container-lowest p-8 rounded-2xl shadow-sm">
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-md text-label-md text-on-surface font-bold uppercase tracking-widest">Recent Real-Time Operations</span>
+<span class="flex items-center gap-2 font-label-sm text-label-sm text-status-success">
+<span class="relative flex h-2.5 w-2.5">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-status-success opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-status-success"></span>
+</span>
+                        Live
+                    </span>
+</div>
+<div class="flex flex-col gap-0 relative">
+<!-- Feed Item 1 -->
+<div class="flex gap-4 relative pb-6">
+<div class="w-[2px] bg-surface-container-high absolute top-8 bottom-0 left-5"></div>
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center flex-shrink-0 z-10 shadow-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+</div>
+<div class="flex flex-col pt-2 w-full">
+<div class="flex justify-between items-start w-full">
+<span class="font-label-md text-label-md text-on-surface">Ticket #IND-9021 resolved by BMC automated workflow.</span>
+<span class="font-label-sm text-label-sm text-outline">Just now</span>
+</div>
+<div class="mt-2 flex gap-2">
+<span class="px-2 py-0.5 bg-tertiary-container text-on-tertiary-container font-label-sm text-label-sm rounded">Resolved</span>
+</div>
+</div>
+</div>
+<!-- Feed Item 2 -->
+<div class="flex gap-4 relative pb-6">
+<div class="w-[2px] bg-surface-container-high absolute top-8 bottom-0 left-5"></div>
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center flex-shrink-0 z-10 shadow-sm text-primary">
+<span class="material-symbols-outlined text-[20px]">smart_toy</span>
+</div>
+<div class="flex flex-col pt-2 w-full">
+<div class="flex justify-between items-start w-full">
+<span class="font-label-md text-label-md text-on-surface">Grievance #IND-9025 AI Triaged &amp; Routed.</span>
+<span class="font-label-sm text-label-sm text-outline">2 mins ago</span>
+</div>
+<div class="mt-2 flex gap-2">
+<span class="px-2 py-0.5 bg-primary-container text-on-primary-container font-label-sm text-label-sm rounded">AI Triaged</span>
+<span class="px-2 py-0.5 bg-surface-container-high text-on-surface font-label-sm text-label-sm rounded flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">arrow_forward</span> Dept: Water Resources</span>
+</div>
+</div>
+</div>
+<!-- Feed Item 3 -->
+<div class="flex gap-4 relative">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center flex-shrink-0 z-10 shadow-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">person_add</span>
+</div>
+<div class="flex flex-col pt-2 w-full">
+<div class="flex justify-between items-start w-full">
+<span class="font-label-md text-label-md text-on-surface">New citizen application matched with PM-SVANidhi.</span>
+<span class="font-label-sm text-label-sm text-outline">5 mins ago</span>
+</div>
+<div class="mt-2 flex gap-2">
+<span class="px-2 py-0.5 bg-surface-container text-on-surface font-label-sm text-label-sm rounded">Submitted</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    // Micro-interaction for search input typewriter effect
+    document.addEventListener('DOMContentLoaded', () => {
+        const input = document.getElementById('ai-search-input');
+        const placeholders = [
+            "Ask about any scheme...",
+            "Submit a civic grievance...",
+            "Simplify an official notice...",
+            "Track my pending application..."
+        ];
+        let pIndex = 0;
+        let cIndex = 0;
+        let isDeleting = false;
+        
+        function typeWriter() {
+            const currentString = placeholders[pIndex];
+            
+            if (isDeleting) {
+                input.placeholder = currentString.substring(0, cIndex - 1);
+                cIndex--;
+            } else {
+                input.placeholder = currentString.substring(0, cIndex + 1);
+                cIndex++;
+            }
+            
+            let typingSpeed = isDeleting ? 30 : 80;
+            
+            if (!isDeleting && cIndex === currentString.length) {
+                typingSpeed = 2000; // pause at end
+                isDeleting = true;
+            } else if (isDeleting && cIndex === 0) {
+                isDeleting = false;
+                pIndex = (pIndex + 1) % placeholders.length;
+                typingSpeed = 500; // pause before next string
+            }
+            
+            setTimeout(typeWriter, typingSpeed);
+        }
+        
+        // Start typing effect after short delay
+        setTimeout(typeWriter, 1000);
+    });
+</script></main></div>
+
+</body></html>
