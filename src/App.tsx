@@ -18,10 +18,20 @@ import {
   FolderLock, 
   FileText 
 } from 'lucide-react';
+import { useKeyboardShortcuts, NavViewType } from './hooks/useKeyboardShortcuts';
 
 const AppContent: React.FC = () => {
-  const { activeView, setActiveView } = useCitizen();
+  const { activeView, setActiveView, setGlobalSearchQuery } = useCitizen();
   const { t } = useLanguage();
+
+  // Enable global hotkeys for citizen accessibility
+  useKeyboardShortcuts({
+    onNavigate: (view: NavViewType) => setActiveView(view),
+    onToggleSearch: () => {
+      const searchInput = document.querySelector('input[type="text"]') as HTMLInputElement;
+      searchInput?.focus();
+    },
+  });
 
   const mobileNavItems = [
     { id: 'dashboard', label: t('dashboard'), icon: LayoutDashboard },
