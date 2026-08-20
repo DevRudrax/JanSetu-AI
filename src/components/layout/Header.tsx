@@ -5,6 +5,7 @@ import { useCitizen } from '../../context/CitizenContext';
 import { useAuth } from '../../context/AuthContext';
 import { ProfileModal } from './ProfileModal';
 import { SupabaseConfigModal } from '../auth/SupabaseConfigModal';
+import { KeyboardShortcutsModal } from './KeyboardShortcutsModal';
 import { 
   Globe, 
   Contrast, 
@@ -16,7 +17,8 @@ import {
   LogOut,
   Sliders,
   UserCheck,
-  ShieldCheck
+  ShieldCheck,
+  Keyboard
 } from 'lucide-react';
 import { Language } from '../../types';
 
@@ -27,6 +29,7 @@ export const Header: React.FC = () => {
   const { user, signOut } = useAuth();
 
   const [showProfileModal, setShowProfileModal] = useState(false);
+  const [showShortcutsModal, setShowShortcutsModal] = useState(false);
   const [showAccessMenu, setShowAccessMenu] = useState(false);
   const [showUserDropdown, setShowUserDropdown] = useState(false);
   const [headerSearch, setHeaderSearch] = useState('');
@@ -178,6 +181,18 @@ export const Header: React.FC = () => {
             )}
           </div>
 
+          {/* Keyboard Shortcuts Trigger Button */}
+          <button
+            onClick={() => setShowShortcutsModal(true)}
+            className="p-2 rounded-full border border-border-light/50 bg-surface-container-low/70 hover:bg-surface-container text-on-surface-variant transition-all hidden md:flex items-center gap-1.5"
+            title="Keyboard Shortcuts (Press ?)"
+          >
+            <Keyboard className="w-4 h-4 text-primary" />
+            <kbd className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-surface-container-highest border border-border-light font-bold text-on-surface">
+              ?
+            </kbd>
+          </button>
+
           {/* Divider */}
           <div className="h-6 w-[1px] bg-border-light hidden sm:block"></div>
 
@@ -247,6 +262,7 @@ export const Header: React.FC = () => {
 
       {/* Modals */}
       <ProfileModal isOpen={showProfileModal} onClose={() => setShowProfileModal(false)} />
+      <KeyboardShortcutsModal isOpen={showShortcutsModal} onClose={() => setShowShortcutsModal(false)} />
     </>
   );
 };
