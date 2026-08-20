@@ -1,0 +1,47 @@
+{
+  "name": "JanSetu AI — Citizen Governance & DPI Bridge",
+  "short_name": "JanSetu AI",
+  "description": "Democratizing Public Services, Welfare Schemes, RTI Filing, Grievance Redressal, and DigiLocker Access through Conversational Multi-Lingual AI.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0d9488",
+  "lang": "hi-IN",
+  "dir": "ltr",
+  "categories": ["government", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Welfare Schemes",
+      "short_name": "Schemes",
+      "description": "Find Central & State welfare benefits and eligibility",
+      "url": "/#schemes"
+    },
+    {
+      "name": "RTI Assistant",
+      "short_name": "RTI",
+      "description": "Draft Right to Information applications with PDF generator",
+      "url": "/#rti"
+    },
+    {
+      "name": "Grievance Redressal",
+      "short_name": "Grievances",
+      "description": "Submit public complaints with Web3Forms dispatch",
+      "url": "/#grievances"
+    },
+    {
+      "name": "Document Vault",
+      "short_name": "Vault",
+      "description": "DigiLocker certificates and AI legal simplifier",
+      "url": "/#documents"
+    }
+  ]
+}

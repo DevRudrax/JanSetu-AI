@@ -6,6 +6,7 @@ import { CitizenProvider, useCitizen } from './context/CitizenContext';
 import { ProtectedRoute } from './components/auth/ProtectedRoute';
 import { Header } from './components/layout/Header';
 import { Sidebar } from './components/layout/Sidebar';
+import { NetworkStatusBar } from './components/common/NetworkStatusBar';
 import { DashboardView } from './components/views/DashboardView';
 import { SchemesView } from './components/views/SchemesView';
 import { GrievanceView } from './components/views/GrievanceView';
@@ -50,6 +51,9 @@ const AppContent: React.FC = () => {
       <div className="flex-1 flex flex-col min-w-0 lg:pl-72 pb-16 lg:pb-0">
         {/* Fixed Header */}
         <Header />
+
+        {/* Real-time Network Connectivity & Offline Resiliency Bar */}
+        <NetworkStatusBar />
 
         {/* Dynamic Main View */}
         <main className="flex-1 pt-16">
